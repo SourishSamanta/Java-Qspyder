@@ -1,0 +1,25 @@
+- Heap area is the memory space where blocks of memory are created during the excecution of program
+- Objects are created during excecution of a program.
+- New keyword will return the refference of the object.
+
+Constructor
+- Constructor is a special member of a class which is used to load and initialize the non static members
+from class to object.
+- Constructor doesnt have a return type.
+- Constructor name is same as class name.
+- They are mainly of two types : Default no arg Constructor , Userdifined : no arg & parameterized
+
+Default Constructor
+is the Constructor when there is no Constructor created by user , inside the class.
+
+Userdifined No arg Constructor
+is the Constructor created by user with no arguments.
+
+parameterized Constructor
+is the Constructor created by user with formal arguments. We mainly use parameterized Constructor to initialize 
+the object members or non static variables during the object creation.
+
+This Keyword:
+- We use This keyword to access the object variable. 
+- This Keyword contains the refference of current excecuting object.
+- It is useful when object variable name and local variable name is same.

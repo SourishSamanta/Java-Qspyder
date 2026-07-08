@@ -23,3 +23,31 @@ This Keyword:
 - We use This keyword to access the object variable. 
 - This Keyword contains the refference of current excecuting object.
 - It is useful when object variable name and local variable name is same.
+
+
+Linear Search is a operation which is used to find an element in an array by traversing it from 
+the beginning till end.
+- can work on unsorted array
+
+
+Has - A Relationship
+- One object depending over another object is called as Has - a Relationship
+- Every depending object will have the container to store dependent object.
+- Two types:
+    - Composition
+    - Aggregation
+(Car has a Relationship with a Engine)
+
+Composition
+One Object is completely dependent on another object such relationship is called as composition.
+- We can achieve
+
+Early instantive
+- When we create the depending object , at the same time dependent object 
+- Steps to achieve early instantive
+    - we use a non static initializer
+    - Create a blueprint of dependent object
+    - Create a blueprint of depending object , in this blueprint we must create the depending Object
+      with the help of the non static initializer
+    
+
